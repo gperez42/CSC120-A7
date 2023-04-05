@@ -44,6 +44,17 @@ public class CampusMap {
         CampusMap myMap = new CampusMap();
         myMap.addBuilding(new Building("Ford Hall", "100 Green Street Northampton, MA 01063", 4));
         myMap.addBuilding(new Building("Bass Hall", "4 Tyler Court Northampton, MA 01063", 4));
+        myMap.addBuilding(new House("Morris House", "100 Green St, Northampton, MA 01063", 4));
+        myMap.addBuilding(new Library("Josten Library", "122 Green St, Northampton, MA 01063", 3, true));
+        myMap.addBuilding(new Cafe("Campus Center Cafe", "100 Elm St, Northampton, MA 01063", 1));
+        myMap.addBuilding(new Building("Wright Hall", "5 Chapin Way, Northampton, MA 01063", 3));
+        myMap.addBuilding(new Building("Hatfield Hall", "Northampton, MA 01063", 3)); 
+        myMap.addBuilding(new Building("Ainsworth Gym", "102 Lower College Ln, Northampton, MA 01060", 4));
+        myMap.addBuilding(new House("Lamont House", "17 Prospect Street, Northampton, MA 01063", 3));
+        myMap.addBuilding(new Cafe("Compass Cafe", "7 Neilson Drive, Northampton, MA 01063", 2));
+        myMap.addBuilding(new Library("Hillyer Library", "20 Elm St, Northampton, MA 01063", 2, true));
+        myMap.addBuilding(new Building("Seelye Hall", "Northampton, MA 01063", 3));
+        myMap.addBuilding(new Building("Sabin-Reed Hall", "44 College Ln, Northampton, MA 01063", 4));
         System.out.println(myMap);
     }
     
